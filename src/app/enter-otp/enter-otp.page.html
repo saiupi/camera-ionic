@@ -1,0 +1,36 @@
+
+
+<ion-content>
+  <!-- <div (click)="goToBack()" class="goToBack">
+    <ion-button shape="round" fill="outline" >Cancel</ion-button>
+  </div>
+  <div align="center" class="camera-css">
+    <h3>ENTER OTP</h3><P>from email</P>
+  </div> -->
+  <ion-card class="backgroun-image" >
+    <div (click)="goToBack()" class="goToBack">
+      <!-- <ion-icon name="arrow-back"></ion-icon> -->
+          <span> Back </span>
+    </div>
+    <div align="center" class="text-css">
+      <h3>ENTER OTP</h3><P>from email</P>
+    </div>
+  </ion-card>
+  <ion-list class="text-align">
+
+  <ion-item>
+    <ion-label position="floating">OTP</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  </ion-list>
+  <div align="center" class="mt-5">
+    <!-- <ion-button  fill="outline" class="sign-up" (click)="otp()">DONE</ion-button> -->
+    <button  class="sign-up" (click)="otp()">DONE</button>
+
+</div>
+</ion-content>
+<ion-footer  align="center">
+  <ion-toolbar>
+    <ion-title> <span class="account-radius">Resend</span> OTP</ion-title>
+  </ion-toolbar>
+</ion-footer>

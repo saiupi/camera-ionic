@@ -1,0 +1,45 @@
+.camera-css {
+  padding-top: 50px;
+  font-size: 120px;
+  color: #000;
+}
+.sign-up {
+  color: #fff;
+  background: orange;
+}
+.mt-5 {
+  margin: 40px;
+}
+.account-radius{
+    border: 1px solid #fff;
+}
+.checkbox-css{
+    padding-left: 20px;
+    margin-top: 14px;
+}
+.goToBack{
+    position: relative;
+    left: 27px;
+    font-size: 30px;
+    top: 12px;
+    color: #000;
+}
+.backgroun-image{
+    --background: #fff url('../../assets/food2.jpg') no-repeat center center / cover;
+  background-color: rgb(17, 16, 16);
+  opacity: 0.5;
+  height: 250px;
+  }
+  .text-align{
+    padding-left: 20px; padding-right: 20px; 
+  }
+  .sign-up{
+      color: #fff;
+  background: orange;
+  /* padding: 11px; */
+  font-size: 20px;
+  width: 140px;
+  height: 52px;
+  border-radius: 15px;
+  text-align: center;
+  }
